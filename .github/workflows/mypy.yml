@@ -26,3 +26,6 @@ jobs:
 
       - name: run mypy
         run: mypy -p networkx
+
+      - name: run stubtest
+        run: python -m mypy.stubtest $(find networkx -name '*.pyi' | pyp 'p.replace("/", ".")[:-len(".pyi")] | "__init__" not in p')
