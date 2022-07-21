@@ -8,5 +8,16 @@ from networkx.readwrite import *
 from networkx.algorithms import *
 from networkx.linalg import *
 from networkx.drawing import *
-from networkx import algorithms as algorithms, classes as classes, convert as convert, convert_matrix as convert_matrix, drawing as drawing, generators as generators, linalg as linalg, readwrite as readwrite, relabel as relabel, utils as utils
+from networkx import (
+    algorithms as algorithms,
+    classes as classes,
+    convert as convert,
+    convert_matrix as convert_matrix,
+    drawing as drawing,
+    generators as generators,
+    linalg as linalg,
+    readwrite as readwrite,
+    relabel as relabel,
+    utils as utils,
+)
 from networkx.classes import filters as filters
