@@ -7,7 +7,6 @@ def attach(
     submodules: Incomplete | None = ...,
     submod_attrs: Incomplete | None = ...,
 ): ...
-
 def _lazy_import(fullname): ...
 
 class DelayedImportErrorModule(types.ModuleType):

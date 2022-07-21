@@ -1,5 +1,5 @@
 from collections.abc import Generator, Mapping
-from typing import TypeVar, Generic
+from typing import Generic, TypeVar
 
 from _typeshed import Incomplete
 
