@@ -1,7 +1,7 @@
 import pytest
 
 import networkx as nx
-from networkx.convert import (
+from networkx.convert import (  # type: ignore
     from_dict_of_dicts,
     from_dict_of_lists,
     to_dict_of_dicts,
