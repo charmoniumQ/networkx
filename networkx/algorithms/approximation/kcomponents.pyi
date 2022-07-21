@@ -3,6 +3,7 @@ from _typeshed import Incomplete
 from collections.abc import Generator, Mapping
 
 def k_components(G, min_density: float = ...): ...
+def _same(measure, tol: float = ...): ...
 
 class _AntiGraph(nx.Graph):
     all_edge_dict: Incomplete
