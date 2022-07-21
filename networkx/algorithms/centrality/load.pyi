@@ -1,4 +1,5 @@
 from typing import Any
+
 newman_betweenness_centrality: Any
 load_centrality = newman_betweenness_centrality
 

@@ -1,7 +1,11 @@
 import types
 from _typeshed import Incomplete
 
-def attach(module_name, submodules: Incomplete | None = ..., submod_attrs: Incomplete | None = ...): ...
+def attach(
+    module_name,
+    submodules: Incomplete | None = ...,
+    submod_attrs: Incomplete | None = ...,
+): ...
 
 class DelayedImportErrorModule(types.ModuleType):
     def __init__(self, frame_data, *args, **kwargs) -> None: ...
