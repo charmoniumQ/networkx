@@ -6,8 +6,8 @@ import pytest
 
 import networkx as nx
 
-is_coloring = nx.algorithms.coloring.equitable_coloring.is_coloring
-is_equitable = nx.algorithms.coloring.equitable_coloring.is_equitable
+is_coloring = nx.algorithms.coloring.equitable_coloring.is_coloring  # type: ignore
+is_equitable = nx.algorithms.coloring.equitable_coloring.is_equitable  # type: ignore
 
 
 ALL_STRATEGIES = [

@@ -6,12 +6,14 @@ import pytest
 from networkx import DiGraph
 from networkx.algorithms.tournament import (
     hamiltonian_path,
-    index_satisfying,
     is_reachable,
     is_strongly_connected,
     is_tournament,
     random_tournament,
     score_sequence,
+)
+from networkx.algorithms.tournament import (  # type: ignore
+    index_satisfying,
     tournament_matrix,
 )
 

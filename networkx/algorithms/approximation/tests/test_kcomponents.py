@@ -3,7 +3,7 @@ import pytest
 
 import networkx as nx
 from networkx.algorithms.approximation import k_components
-from networkx.algorithms.approximation.kcomponents import _AntiGraph, _same
+from networkx.algorithms.approximation.kcomponents import _AntiGraph, _same  # type: ignore
 
 
 def build_k_number_dict(k_components):

@@ -7,8 +7,6 @@ from networkx.utils import not_implemented_for
 from .edmondskarp import edmonds_karp
 from .utils import build_residual_network
 
-default_flow_func = edmonds_karp
-
 __all__ = ["gomory_hu_tree"]
 
 

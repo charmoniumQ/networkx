@@ -140,14 +140,14 @@ class OutMultiEdgeView(OutEdgeView):
     def __iter__(self): ...
     def __contains__(self, e): ...
     def __getitem__(self, e): ...
-    def __call__(
+    def __call__(  # type: ignore
         self,
         nbunch: Incomplete | None = ...,
         data: bool = ...,
         keys: bool = ...,
         default: Incomplete | None = ...,
     ): ...
-    def data(
+    def data(  # type: ignore
         self,
         data: bool = ...,
         keys: bool = ...,

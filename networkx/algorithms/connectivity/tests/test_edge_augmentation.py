@@ -6,11 +6,13 @@ import pytest
 import networkx as nx
 from networkx.algorithms.connectivity import k_edge_augmentation
 from networkx.algorithms.connectivity.edge_augmentation import (
+    is_k_edge_connected,
+    is_locally_k_edge_connected,
+)
+from networkx.algorithms.connectivity.edge_augmentation import (  # type: ignore
     _unpack_available_edges,
     collapse,
     complement_edges,
-    is_k_edge_connected,
-    is_locally_k_edge_connected,
 )
 from networkx.utils import pairwise
 

@@ -4,7 +4,7 @@ import pytest
 
 import networkx as nx
 from networkx import graph_atlas, graph_atlas_g
-from networkx.generators.atlas import NUM_GRAPHS
+from networkx.generators.atlas import NUM_GRAPHS  # type: ignore
 from networkx.utils import edges_equal, nodes_equal, pairwise
 
 

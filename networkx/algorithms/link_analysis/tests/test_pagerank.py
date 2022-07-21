@@ -7,7 +7,7 @@ import networkx as nx
 np = pytest.importorskip("numpy")
 pytest.importorskip("scipy")
 
-from networkx.algorithms.link_analysis.pagerank_alg import (
+from networkx.algorithms.link_analysis.pagerank_alg import (  # type: ignore
     _pagerank_numpy,
     _pagerank_python,
     _pagerank_scipy,

@@ -4,7 +4,7 @@ import pytest
 
 import networkx as nx
 from networkx.algorithms.connectivity import EdgeComponentAuxGraph, bridge_components
-from networkx.algorithms.connectivity.edge_kcomponents import general_k_edge_subgraphs
+from networkx.algorithms.connectivity.edge_kcomponents import general_k_edge_subgraphs  # type: ignore
 from networkx.utils import pairwise
 
 # ----------------

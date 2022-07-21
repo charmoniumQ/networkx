@@ -5,7 +5,7 @@ pytest.importorskip("scipy")
 
 
 import networkx as nx
-from networkx.algorithms.assortativity.correlation import attribute_ac
+from networkx.algorithms.assortativity.correlation import attribute_ac  # type: ignore
 
 from .base_test import BaseTestAttributeMixing, BaseTestDegreeMixing
 

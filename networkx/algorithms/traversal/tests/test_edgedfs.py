@@ -2,7 +2,7 @@ import pytest
 
 import networkx as nx
 from networkx.algorithms import edge_dfs
-from networkx.algorithms.traversal.edgedfs import FORWARD, REVERSE
+from networkx.algorithms.traversal.edgedfs import FORWARD, REVERSE  # type: ignore
 
 # These tests can fail with hash randomization. The easiest and clearest way
 # to write these unit tests is for the edges to be output in an expected total

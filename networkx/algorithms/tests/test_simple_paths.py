@@ -4,7 +4,7 @@ import pytest
 
 import networkx as nx
 from networkx import convert_node_labels_to_integers as cnlti
-from networkx.algorithms.simple_paths import (
+from networkx.algorithms.simple_paths import (  # type: ignore
     _bidirectional_dijkstra,
     _bidirectional_shortest_path,
 )

@@ -6,7 +6,7 @@ np = pytest.importorskip("numpy")
 sp = pytest.importorskip("scipy")
 import scipy.sparse  # call as sp.sparse
 
-from networkx.algorithms.link_analysis.hits_alg import (
+from networkx.algorithms.link_analysis.hits_alg import (  # type: ignore
     _hits_numpy,
     _hits_python,
     _hits_scipy,

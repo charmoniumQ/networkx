@@ -6,7 +6,7 @@ import pytest
 
 import networkx as nx
 from networkx.algorithms import flow
-from networkx.algorithms.connectivity.kcutsets import _is_separating_set
+from networkx.algorithms.connectivity.kcutsets import _is_separating_set  # type: ignore
 
 MAX_CUTSETS_TO_TEST = 4  # originally 100. cut to decrease testing time
 

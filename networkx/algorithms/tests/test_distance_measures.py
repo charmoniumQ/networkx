@@ -4,7 +4,7 @@ import pytest
 
 import networkx as nx
 from networkx import convert_node_labels_to_integers as cnlti
-from networkx.algorithms.distance_measures import _extrema_bounding
+from networkx.algorithms.distance_measures import _extrema_bounding  # type: ignore
 
 
 def test__extrema_bounding_invalid_compute_kwarg():

@@ -2,7 +2,7 @@ import pytest
 
 import networkx as nx
 import networkx.algorithms.bipartite as bipartite
-from networkx.algorithms.bipartite.cluster import cc_dot, cc_max, cc_min
+from networkx.algorithms.bipartite.cluster import cc_dot, cc_max, cc_min  # type: ignore
 
 
 def test_pairwise_bipartite_cc_functions():

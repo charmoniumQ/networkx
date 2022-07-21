@@ -525,7 +525,7 @@ class TestSimilarity:
     # note: nx.simrank_similarity_numpy not included because returns np.array
     simrank_algs = [
         nx.simrank_similarity,
-        nx.algorithms.similarity._simrank_similarity_python,
+        nx.algorithms.similarity._simrank_similarity_python,  # type: ignore
     ]
 
     @pytest.mark.parametrize("simrank_similarity", simrank_algs)

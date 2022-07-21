@@ -10,9 +10,9 @@ from networkx.generators.directed import (
     gnc_graph,
     gnr_graph,
     random_k_out_graph,
-    random_uniform_k_out_graph,
     scale_free_graph,
 )
+from networkx.generators.directed import random_uniform_k_out_graph  # type: ignore
 
 
 class TestGeneratorsDirected:

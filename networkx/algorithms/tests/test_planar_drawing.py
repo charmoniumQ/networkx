@@ -3,7 +3,7 @@ import math
 import pytest
 
 import networkx as nx
-from networkx.algorithms.planar_drawing import triangulate_embedding
+from networkx.algorithms.planar_drawing import triangulate_embedding  # type: ignore
 
 
 def test_graph1():

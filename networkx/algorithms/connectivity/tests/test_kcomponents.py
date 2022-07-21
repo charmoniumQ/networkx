@@ -2,7 +2,7 @@
 import pytest
 
 import networkx as nx
-from networkx.algorithms.connectivity.kcomponents import (
+from networkx.algorithms.connectivity.kcomponents import (  # type: ignore
     _consolidate,
     build_k_number_dict,
 )
