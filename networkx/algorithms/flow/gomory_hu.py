@@ -9,6 +9,8 @@ from .utils import build_residual_network
 
 __all__ = ["gomory_hu_tree"]
 
+default_flow_func = edmonds_karp
+
 
 @not_implemented_for("directed")
 def gomory_hu_tree(G, capacity="capacity", flow_func=None):
