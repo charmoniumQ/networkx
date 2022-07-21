@@ -1,5 +1,6 @@
-import networkx as nx
 from _typeshed import Incomplete
+
+import networkx as nx
 
 def branching_weight(G, attr: str = ..., default: int = ...): ...
 def greedy_branching(

@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def single_source_shortest_path_length(G, source, cutoff: Incomplete | None = ...): ...
 def single_target_shortest_path_length(G, target, cutoff: Incomplete | None = ...): ...

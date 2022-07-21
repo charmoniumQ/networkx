@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def is_simple_path(G, nodes): ...
 def all_simple_paths(G, source, target, cutoff: Incomplete | None = ...): ...

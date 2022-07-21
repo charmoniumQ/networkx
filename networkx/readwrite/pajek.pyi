@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def generate_pajek(G) -> Generator[Incomplete, None, None]: ...
 def write_pajek(G, path, encoding: str = ...) -> None: ...

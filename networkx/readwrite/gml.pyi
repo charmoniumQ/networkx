@@ -1,7 +1,8 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
 from enum import Enum
 from typing import Any, NamedTuple
+
+from _typeshed import Incomplete
 
 def read_gml(path, label: str = ..., destringizer: Incomplete | None = ...): ...
 def parse_gml(lines, label: str = ..., destringizer: Incomplete | None = ...): ...

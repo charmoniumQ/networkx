@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def dijkstra_path(G, source, target, weight: str = ...): ...
 def dijkstra_path_length(G, source, target, weight: str = ...): ...

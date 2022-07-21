@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def bridges(G, root: Incomplete | None = ...) -> Generator[Incomplete, None, None]: ...
 def has_bridges(G, root: Incomplete | None = ...): ...

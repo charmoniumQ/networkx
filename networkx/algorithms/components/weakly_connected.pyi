@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def weakly_connected_components(G) -> Generator[Incomplete, None, None]: ...
 def number_weakly_connected_components(G): ...

@@ -17,7 +17,10 @@ from networkx.utils import (
     pairwise,
     powerlaw_sequence,
 )
-from networkx.utils.misc import _dict_to_numpy_array1, _dict_to_numpy_array2   # type: ignore
+from networkx.utils.misc import (  # type: ignore
+    _dict_to_numpy_array1,
+    _dict_to_numpy_array2,
+)
 
 nested_depth = (
     1,

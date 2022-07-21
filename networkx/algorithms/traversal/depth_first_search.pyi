@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def dfs_edges(
     G, source: Incomplete | None = ..., depth_limit: Incomplete | None = ...

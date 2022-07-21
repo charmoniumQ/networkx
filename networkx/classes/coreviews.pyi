@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Mapping
+
+from _typeshed import Incomplete
 
 class AtlasView(Mapping):
     def __init__(self, d) -> None: ...

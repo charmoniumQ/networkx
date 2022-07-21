@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def cycle_basis(G, root: Incomplete | None = ...): ...
 def simple_cycles(G) -> Generator[Incomplete, None, None]: ...

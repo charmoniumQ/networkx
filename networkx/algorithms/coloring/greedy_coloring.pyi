@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def strategy_largest_first(G, colors): ...
 def strategy_random_sequential(G, colors, seed: Incomplete | None = ...): ...

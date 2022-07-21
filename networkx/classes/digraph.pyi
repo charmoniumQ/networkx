@@ -1,4 +1,5 @@
 from _typeshed import Incomplete
+
 from networkx.classes.graph import Graph
 
 class _CachedPropertyResetterAdjAndSucc:

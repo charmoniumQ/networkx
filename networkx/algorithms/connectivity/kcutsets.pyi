@@ -1,5 +1,7 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
+
 from networkx.algorithms.flow import edmonds_karp
 
 default_flow_func = edmonds_karp

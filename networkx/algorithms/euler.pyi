@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def is_eulerian(G): ...
 def is_semieulerian(G): ...

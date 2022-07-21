@@ -1,4 +1,5 @@
 from _typeshed import Incomplete
+
 from networkx.utils import groups as groups
 
 class UnionFind:

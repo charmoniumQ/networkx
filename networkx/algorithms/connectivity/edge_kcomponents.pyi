@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def k_edge_components(G, k): ...
 def k_edge_subgraphs(G, k): ...

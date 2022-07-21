@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from typing import NamedTuple
+
+from _typeshed import Incomplete
 
 def not_implemented_for(*graph_types): ...
 def open_file(path_arg, mode: str = ...): ...

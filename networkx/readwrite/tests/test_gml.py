@@ -10,7 +10,10 @@ from textwrap import dedent
 import pytest
 
 import networkx as nx
-from networkx.readwrite.gml import literal_destringizer, literal_stringizer  # type: ignore
+from networkx.readwrite.gml import (  # type: ignore
+    literal_destringizer,
+    literal_stringizer,
+)
 
 
 class TestGraph:

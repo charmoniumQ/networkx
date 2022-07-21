@@ -1,4 +1,5 @@
 from _typeshed import Incomplete
+
 from networkx.classes.digraph import DiGraph
 from networkx.classes.multigraph import MultiGraph
 

@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def naive_all_pairs_lowest_common_ancestor(
     G, pairs: Incomplete | None = ...

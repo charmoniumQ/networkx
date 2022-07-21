@@ -1,9 +1,9 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
-from networkx.classes.graphviews import (
-    reverse_view as reverse_view,
-    subgraph_view as subgraph_view,
-)
+
+from _typeshed import Incomplete
+
+from networkx.classes.graphviews import reverse_view as reverse_view
+from networkx.classes.graphviews import subgraph_view as subgraph_view
 
 def nodes(G): ...
 def edges(G, nbunch: Incomplete | None = ...): ...

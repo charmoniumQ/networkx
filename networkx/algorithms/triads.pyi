@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def triadic_census(G, nodelist: Incomplete | None = ...): ...
 def is_triad(G): ...

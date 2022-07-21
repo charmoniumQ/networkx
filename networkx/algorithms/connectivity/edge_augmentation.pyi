@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from typing import NamedTuple
+
+from _typeshed import Incomplete
 
 def is_k_edge_connected(G, k): ...
 def is_locally_k_edge_connected(G, s, t, k): ...

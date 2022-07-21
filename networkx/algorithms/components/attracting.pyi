@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def attracting_components(G) -> Generator[Incomplete, None, None]: ...
 def number_attracting_components(G): ...

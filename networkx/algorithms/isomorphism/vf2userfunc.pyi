@@ -1,5 +1,6 @@
-from . import isomorphvf2 as vf2
 from _typeshed import Incomplete
+
+from . import isomorphvf2 as vf2
 
 class GraphMatcher(vf2.GraphMatcher):
     node_match: Incomplete

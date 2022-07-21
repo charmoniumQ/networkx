@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def enumerate_all_cliques(G) -> Generator[Incomplete, None, None]: ...
 def find_cliques(

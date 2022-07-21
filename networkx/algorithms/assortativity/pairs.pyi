@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
 
 def node_attribute_xy(
     G, attribute, nodes: Incomplete | None = ...

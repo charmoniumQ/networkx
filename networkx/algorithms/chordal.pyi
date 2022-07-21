@@ -1,6 +1,8 @@
-import networkx as nx
-from _typeshed import Incomplete
 from collections.abc import Generator
+
+from _typeshed import Incomplete
+
+import networkx as nx
 
 class NetworkXTreewidthBoundExceeded(nx.NetworkXException): ...
 

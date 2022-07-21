@@ -1,5 +1,6 @@
-from .isomorphvf2 import DiGraphMatcher, GraphMatcher
 from _typeshed import Incomplete
+
+from .isomorphvf2 import DiGraphMatcher, GraphMatcher
 
 class TimeRespectingGraphMatcher(GraphMatcher):
     temporal_attribute_name: Incomplete

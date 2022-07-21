@@ -5,6 +5,7 @@ import pytest
 
 import networkx as nx
 from networkx.classes import Graph, MultiDiGraph
+from networkx.generators.directed import random_uniform_k_out_graph  # type: ignore
 from networkx.generators.directed import (
     gn_graph,
     gnc_graph,
@@ -12,7 +13,6 @@ from networkx.generators.directed import (
     random_k_out_graph,
     scale_free_graph,
 )
-from networkx.generators.directed import random_uniform_k_out_graph  # type: ignore
 
 
 class TestGeneratorsDirected:

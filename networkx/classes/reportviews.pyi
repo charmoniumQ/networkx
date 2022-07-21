@@ -1,5 +1,6 @@
-from _typeshed import Incomplete
 from collections.abc import Mapping, Set
+
+from _typeshed import Incomplete
 
 class NodeView(Mapping, Set):
     def __init__(self, graph) -> None: ...

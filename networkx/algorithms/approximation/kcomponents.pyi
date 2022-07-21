@@ -1,6 +1,8 @@
-import networkx as nx
-from _typeshed import Incomplete
 from collections.abc import Generator, Mapping
+
+from _typeshed import Incomplete
+
+import networkx as nx
 
 def k_components(G, min_density: float = ...): ...
 
